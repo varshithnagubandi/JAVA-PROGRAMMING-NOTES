@@ -1,0 +1,76 @@
+                                                                                    SARANAM AYYAPPA
+
+-----------------------------------------------------------------------------------------------------------
+# INTRODUCTION PROGRAM
+
+
+package introductionplace;
+
+public class Introductionplace {
+	public static void main(String arg [])
+	{
+		System.out.println("Hello world");
+		System.out.println("SARANAM AYYAPPA");
+	}
+
+}
+
+----------------------------------------------------------------------------------------------------------
+# ALL  TYPES OF TAKING INPUT FROM KEYBOARD 
+
+
+package introductionplace;
+import java.util.*;
+
+public class Sumoftwonumbers {
+	public static void main(String arg[])
+	{
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("Enter any Integer value : ");
+		int a=s.nextInt();
+		
+		System.out.println("Enter any float value : ");
+		float b=s.nextFloat();
+		
+		System.out.println("Enter any Word : ");
+		String c=s.next();
+
+		
+		System.out.println("Enter  any Sentence :");
+		String d=s.nextLine();
+		
+		System.out.println("Enter any charcter :");
+		char e=s.next().charAt(0);
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------
+# SUM OF 2 NUMBERS 
+
+
+package introductionplace;
+import java.util.*;
+
+public class SumOfTwoNumberss {
+	public static void main(String arg[])
+	{
+		Scanner s=new Scanner (System.in);
+		System.out.println("Enter the value of a : ");
+		int a=s.nextInt();
+		System.out.println("Enter the value of b : ");
+		int b=s.nextInt();
+		int sum=a+b;
+		System.out.println("Sum os a and b is : "+sum);
+		
+		
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------

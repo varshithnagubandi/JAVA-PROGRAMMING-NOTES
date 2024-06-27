@@ -1,0 +1,42 @@
+READING FROM THE KEYBOARD--(TAKING INPUT FROM THE USER).
+
+**BY USING THE (SCANNER)  IN JAVA WE CAN TAKE THE INPUT FROM THE USERS.
+**TO USE SCANNER WE HAVE TO IMPORT (util).
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+syntax------------     Scanner s=new Scanner(System.in);  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+nextInt()------- input as an integer.
+
+nextFloat()--- input as a float.
+
+nextDouble()---innput as a double
+
+next()---input only one word(ex : varshith,hardik)
+
+nextLine()---- input take sentence
+
+next().charAt(0)-----to take input of single character
+
+nextBoolean()----input take boolean.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+EXAMPLE--------- SUM OF TWO NUMBERS
+
+import  java.lang.*;
+import  java.util.*;
+
+class First
+{
+           public static void main(String arg[])
+           {
+              Scanner s=new Scanner(System.in)
+              int a,b,c;
+              System.out.println("Enter the value of a and b");
+              a=s.nextInt();
+              b=s.nextInt();
+              c=a+b;
+              System.out.println("sum is"+c);
+            }
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
